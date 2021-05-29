@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.one{
+    display: flex;
+    height: 450px;
+    margin: 10%;
+    border: dotted;
+}
+
+.cube_one{
+    display: flex;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    border: solid;
+    border-color:rgb(252, 78, 78);
+    left: 40px;
+    top: 40px;
+}
+
+.cube_two{
+    display: flex;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    border: solid;
+    border-color:rgb(196, 3, 196);
+    left: 100px;
+    top: 170px;
+    }
+
+.cube_three{
+    display: flex;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    border: solid;
+    border-color:rgb(15, 206, 15);
+    left: 180px;
+    top: 300px;
+    }
+
+.two{
+    display: flex;
+    height: 450px;
+    margin: 10%;
+    border: dotted;
+}
+
+.cube_four{
+    display:flex;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    left: 80px;
+    top:145px;
+    background-color:rgb(252, 78, 78);
+}
+
+.cube_five{
+    display:flex;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    left: 50px;
+    top:200px;
+    background-color:rgb(196, 3, 196); 
+}
+
+.cube_six{
+    display:flex;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    left: 25px;
+    top:255px;
+    background-color:rgb(15, 206, 15); 
+}
+
+.three{
+    display: flex;
+    height: 450px;
+    margin: 10%;
+    border: dotted;
+}
+
+.cube_seven{
+    display:flex;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    left: 80px;
+    top:145px;
+    background-color:rgb(252, 78, 78);
+}
+
+.cube_eight{
+    z-index: 1;
+    display:flex;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    left: 50px;
+    top:200px;
+    background-color:rgb(196, 3, 196); 
+}
+
+.cube_nine{
+    display:flex;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    left: 25px;
+    top:255px;
+    background-color:rgb(15, 206, 15); 
+}
+
+.four{
+    display: flex;
+    position:relative;
+    height: 500px;
+    margin: 10%;
+    background-color: white;
+    border: dotted;
+}
+
+.Big_Cube{
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 80%;
+    top: 10%;
+    left: 5%;
+    background-color: rgb(7, 253, 159);   
+}
+
+.one_cube{
+    display: flex;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    left: 3%;
+    top: 5%;
+    background-color: white;
+}
+
+.two_cube{
+    display: flex;
+    position: relative;
+    height: 80px;
+    width: 80px;
+    left: 85%;
+    top: 75%;
+    background-color:white;
+}
+
+.Portal{
+    display: flex;
+    position: relative;
+    height: 450px;
+    margin: 10%;
+    border: dotted; 
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(200, 255, 0);
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    position: relative;
+    flex-direction: column; 
+}
+
+.Simple_Text{
+    margin-top: 0.5%;
+    display: flex;
+    position: relative;
+    border: solid;
+    border-color:rgb(200, 255, 0);
+    flex-direction: column;
+}
