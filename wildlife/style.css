@@ -87,10 +87,12 @@ a{
 }
 
 .logo_texta:hover{
+    transition: 1s;
     transform: scale(1.2)
 }
 
 .menu_click-klack:hover{
+    transition: 1s;
     transform: scale(1.2)
 }
 
